@@ -1,8 +1,8 @@
-import hoodie_img1 from "@/assets/items/hoodie/hoodie1.png"
-import hoodie_img2 from "@/assets/items/hoodie/hoodie2.png"
-import hoodie_img3 from "@/assets/items/hoodie/hoodie3.png"
-import hoodie_img4 from "@/assets/items/hoodie/hoodie4.png"
-import hoodie_img5 from "@/assets/items/hoodie/hoodie5.png"
+import hoodie_img1 from "@/assets/items/hoodie/hoodie1.webp"
+import hoodie_img2 from "@/assets/items/hoodie/hoodie2.webp"
+import hoodie_img3 from "@/assets/items/hoodie/hoodie3.webp"
+import hoodie_img4 from "@/assets/items/hoodie/hoodie4.webp"
+import hoodie_img5 from "@/assets/items/hoodie/hoodie5.webp"
 import girl from "@/assets/items/hoodie/hoodie-girl.gif"
 
 import {ItemPage} from "@/components/items/item_page";

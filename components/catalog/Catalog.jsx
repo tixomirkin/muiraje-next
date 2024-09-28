@@ -1,9 +1,9 @@
-import top from "@/assets/catalog/top.png"
-import hoodie from "@/assets/catalog/hoodie.png"
-import pants from "@/assets/catalog/pants.png"
-import fire from "@/assets/catalog/fire.png"
-import perc from "@/assets/catalog/перчатки.png"
-import podv from "@/assets/catalog/necklace.png"
+import top from "@/assets/catalog/top.webp"
+import hoodie from "@/assets/catalog/hoodie.webp"
+import pants from "@/assets/catalog/pants.webp"
+import fire from "@/assets/catalog/fire.webp"
+import perc from "@/assets/catalog/перчатки.webp"
+import podv from "@/assets/catalog/necklace.webp"
 
 import {Popup} from "../popup.jsx";
 

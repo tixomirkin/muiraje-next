@@ -1,7 +1,7 @@
-import lighter_img1 from "@/assets/items/lighter/lighter1.png"
-import lighter_img2 from "@/assets/items/lighter/lighter2.png"
-import lighter_img3 from "@/assets/items/lighter/lighter3.png"
-import lighter_img4 from "@/assets/items/lighter/lighter4.png"
+import lighter_img1 from "@/assets/items/lighter/lighter1.webp"
+import lighter_img2 from "@/assets/items/lighter/lighter2.webp"
+import lighter_img3 from "@/assets/items/lighter/lighter3.webp"
+import lighter_img4 from "@/assets/items/lighter/lighter4.webp"
 import girl from "@/assets/items/lighter/lighter-girl.gif"
 
 import {ItemPage} from "@/components/items/item_page";

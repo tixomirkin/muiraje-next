@@ -1,6 +1,6 @@
 import {BaseBar} from "@/components/base_bar";
 import kabluk from "@/components-assets/icons/kabluk.svg"
-import about from "@/assets/about.png"
+import about from "@/assets/about.webp"
 import Image from "next/image";
 
 
