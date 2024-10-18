@@ -20,7 +20,7 @@ export const CartItem = ({item, index}) => {
     return (
         <div className="flex  flex-nowrap gap-3 mb-3">
             {/*<div className="min-w-32 h-32 bg-gray-300"/>*/}
-            <Image src={img} className="min-w-32 w-32 h-32 bg-gray-300" alt=""/>
+            <Image src={img} unoptimized className="min-w-32 w-32 h-32 bg-gray-300" alt=""/>
             <div className="flex flex-col">
                 <div className="text-2xl leading-4">{name}</div>
                 <div className="flex flex-row gap-2 justify-between items-center">

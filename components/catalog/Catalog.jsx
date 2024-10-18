@@ -9,6 +9,7 @@ import {Popup} from "../popup.jsx";
 
 import Link from "next/link";
 import Image from "next/image";
+import NecklacePage from "@/app/catalog/necklace/page";
 
 function Item({ img, name, price, page }) {
     return (
@@ -34,7 +35,7 @@ export function Catalog() {
                             <Item img={pants} page="pants" name="COZY OVERSIZE GRAY PANTS UNISEX" price="5888" />
                             <Item img={top} page="top" name="COZY GRAY TANK TOP UNISEX" price="2224" />
                             <Item img={perc} name="COZY DOUBLE-LAYER GLOVES UNISEX" price="1624" />
-                            <Item img={podv} name="COZY SILVER NECKLACE UNISEX" price="8888" />
+                            <Item img={podv} page="necklace" name="COZY SILVER NECKLACE UNISEX" price="8888" />
                             <Item img={fire} page="lighter" name="COZY BLUE AND RED LIGHTERS" price="224"/>
                         </main>
                     </div>
