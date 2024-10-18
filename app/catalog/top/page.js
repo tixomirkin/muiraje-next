@@ -3,7 +3,7 @@ import top_img2 from "@/assets/items/top/top2.webp"
 import top_img3 from "@/assets/items/top/top3.webp"
 import top_img4 from "@/assets/items/top/top4.webp"
 import top_img5 from "@/assets/items/top/top5.webp"
-import girl from "@//assets/items/top/top-girl.gif"
+import girl from "@//assets/items/top/top-girl.webp"
 
 import {ItemPage} from "@/components/items/item_page";
 

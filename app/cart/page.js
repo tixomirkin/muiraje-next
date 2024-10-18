@@ -6,7 +6,7 @@ import {CartItem} from "@/components/cart/cart_item.jsx";
 import {Order} from "@/components/cart/order.jsx";
 
 import HICartImg from "@/components-assets/cart/hi_cart.svg"
-import men from "@/components-assets/cart/men.gif"
+import men from "@/assets/gif/men_return.webp"
 import men_text from "@/components-assets/cart/man_text.svg"
 
 import {useCart} from "@/app/store.js";

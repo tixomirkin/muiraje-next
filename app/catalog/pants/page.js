@@ -3,7 +3,7 @@ import pants_img2 from "@/assets/items/pants/pants2.webp"
 import pants_img3 from "@/assets/items/pants/pants3.webp"
 import pants_img4 from "@/assets/items/pants/pants4.webp"
 import pants_img5 from "@/assets/items/pants/pants5.webp"
-import girl from "@/assets/items/pants/pants-girl.gif"
+import girl from "@/assets/items/pants/pants-girl.webp"
 
 import {ItemPage} from "@/components/items/item_page";
 

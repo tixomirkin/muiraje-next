@@ -4,7 +4,7 @@ import necklace3 from "@/assets/items/necklace/necklace3.webp"
 import necklace4 from "@/assets/items/necklace/necklace4.webp"
 import necklace5 from "@/assets/items/necklace/necklace5.webp"
 import necklace6 from "@/assets/items/necklace/necklace6.webp"
-import girl from "@/assets/items/pants/pants-girl.gif"
+import girl from "@/assets/items/pants/pants-girl.webp"
 
 import {ItemPage} from "@/components/items/item_page";
 

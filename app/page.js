@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import main_girls from "@/assets/gif/main_girls.gif";
+import main_girls from "@/assets/gif/main_girls.webp";
 
 
 export default function Home() {
