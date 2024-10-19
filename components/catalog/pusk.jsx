@@ -67,7 +67,7 @@ function PuskBtn() {
                             <PuskItem off>Office Vacancies</PuskItem>
                             <PuskItem off>Office Music</PuskItem>
                             <Del/>
-                            <PuskItem>Завершить ночёвку</PuskItem>
+                            <PuskItem link toLink={"/"}>Завершить ночёвку</PuskItem>
                         </div>
                     </div>
                 </div>

@@ -14,6 +14,7 @@ module.exports = {
       fontFamily: {
         ztformom: ['var(--font-zt-formom)'],
         swiss: ['var(--font-swiss-siena)'],
+        swiss_bt: ['var(--font-swiss-bt)'],
         basis33: ['var(--font-basis33)'],
       },
     },

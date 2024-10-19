@@ -10,6 +10,11 @@ export const swissSiena = localFont({
     variable: "--font-swiss-siena"
 })
 
+export const swissBT = localFont({
+    src: "./swiss721bt-black.woff2",
+    variable: "--font-swiss-bt"
+})
+
 export const ZTFormom = localFont({
     src: "./ZT_Formom.woff2",
     variable: "--font-zt-formom"

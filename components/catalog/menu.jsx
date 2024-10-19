@@ -15,8 +15,8 @@ import Image from "next/image";
 
 function MenuItem({ icon, name, className }) {
     return (
-        <div className={"text-xl text-center " + className}>
-            <Image className="h-16 render" src={icon} alt="" />
+        <div className={"text-xl text-center w-10 " + className}>
+            <Image className="min-h-14 min-w-full h-full render" src={icon} alt="" />
             {name}
         </div>
     )
@@ -41,13 +41,13 @@ const CartBtn = () => {
 export function Menu() {
     return (
         <>
-            <div className="flex justify-between mx-4">
-                <div className="flex justify-center gap-5">
+            <div className="flex justify-between mx-4 ">
+                <div className="flex justify-center items-end gap-5 overflow-x-auto">
                     <MenuItem name="All" icon={all}/>
                     <MenuItem name="Accery" icon={acc}/>
                     <MenuItem name="Hoodie" icon={hoodie}/>
-                    <MenuItem className="hidden sm:block" name="Pants" icon={pants}/>
-                    <MenuItem className="hidden sm:block" name="Top" icon={top}/>
+                    <MenuItem className=" sm:block" name="Pants" icon={pants}/>
+                    <MenuItem className=" sm:block mr-4" name="Top" icon={top}/>
                 </div>
                 <CartBtn/>
             </div>

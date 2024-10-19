@@ -31,7 +31,7 @@ export function CatalogTopBar() {
                         <NavMenu name="About" openName={menuOpen}>
                             <NavMenuItem linkTo="/about">Muiraje</NavMenuItem>
                             <NavMenuItem linkTo={"/about/site"}>Site</NavMenuItem>
-                            <NavMenuItem>Collection</NavMenuItem>
+                            <NavMenuItem linkTo={"/about/collection"}>Collection</NavMenuItem>
                         </NavMenu>
                     </button>
                 </div>
