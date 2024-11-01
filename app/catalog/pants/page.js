@@ -3,6 +3,7 @@ import pants_img2 from "@/assets/items/pants/pants2.webp"
 import pants_img3 from "@/assets/items/pants/pants3.webp"
 import pants_img4 from "@/assets/items/pants/pants4.webp"
 import pants_img5 from "@/assets/items/pants/pants5.webp"
+import pants_img6 from "@/assets/items/pants/pants6.webp"
 import girl from "@/assets/items/pants/pants-girl.webp"
 
 import {ItemPage} from "@/components/items/item_page";
@@ -12,8 +13,8 @@ import Image from "next/image";
 
 
 export default function PantsPage() {
-    const size = ["S", "M", "L"];
-    const imgs = [pants_img5, pants_img2, pants_img3, pants_img4]
+    const size = ["S", "M"];
+    const imgs = [pants_img1, pants_img2, pants_img3, pants_img4, pants_img5, pants_img6]
 
     return (
         <>

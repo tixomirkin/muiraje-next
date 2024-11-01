@@ -79,7 +79,7 @@ export function ItemPage({ children, size = [], title="", itemName="", imgs=[], 
                 </div>
             </div>
 
-            {popupOpen && <Popup setOpen={setPopup} msg="Сначала нужно выбрать размер размер"/>}
+            {popupOpen && <Popup setOpen={setPopup} msg="Сначала нужно выбрать размер"/>}
 
         </>
     )

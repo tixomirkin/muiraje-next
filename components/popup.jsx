@@ -11,7 +11,7 @@ export const Popup = ({setOpen, msg }) => {
                     <WindowBorder>
                         <div className="w-full h-full p-3 flex flex-col justify-center items-center gap-3 ">
                             <div className="text-4xl text-center text-black">{msg}</div>
-                            <button onClick={() => setOpen(false)} className="text-stone-500 text-2xl underline">Окей ща выберу</button>
+                            <button onClick={() => setOpen(false)} className="text-stone-500 text-2xl underline">Окей, ща выберу</button>
                             {/*<WinButton onClick={() => console.log(1)}>OK</WinButton>*/}
                         </div>
                     </WindowBorder>

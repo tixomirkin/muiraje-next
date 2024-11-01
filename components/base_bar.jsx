@@ -4,7 +4,7 @@ import Image from "next/image";
 
 
 export function BaseBar({title="", logo, bg="win", linkTo="", fixed=false}) {
-    let style = "flex sm:h-8 h-10 items-center justify-between pl-1 "
+    let style = "flex z-20 sm:h-8 h-10 items-center justify-between pl-1 "
     switch (bg) {
         case "win":
             style += "bg-gradient-top text-white ";
@@ -25,11 +25,11 @@ export function BaseBar({title="", logo, bg="win", linkTo="", fixed=false}) {
     return (
         <>
             <div className={style + (fixed && " fixed w-full")}>
-                <div className="flex items-center gap-2 text-4xl ml-2 h-full ">
+                <div className="flex z-20 items-center gap-2 text-4xl ml-2 h-full ">
                     <Image className="h-full p-[2px]" src={logo} alt=""/>
                     <div className="text-3xl">Muiraje <sup className="text-lg">8+8+8</sup><span className="pl-2 hidden sm:inline">{title}</span></div>
                 </div>
-                <div className="flex flex-row h-full p-[2px] w-fit">
+                <div className="flex z-20 flex-row h-full p-[2px] w-fit">
                     <MiniBtn ico="min"/>
                     <MiniBtn ico="full"/>
                     <MiniBtn linkTo={linkTo} ico="close"/>
