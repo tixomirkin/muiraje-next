@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const calculateTotal = (cart) => {
     return cart.reduce(
         (acc, item) => {
@@ -22,7 +24,13 @@ export const Order = ({cart}) => {
                 <div>{totalPrice} руб.</div>
                 <div>Итог:</div>
             </div>
-            <button className="w-full h-10 bg-[#878787] text-white text-2xl ">Оформить!</button>
+            {(cart.length > 0) ? (
+                <button className="w-full h-10 bg-[#878787] text-white text-2xl "><Link
+                    className="h-full w-full inline-block" href="/order">Оформить!</Link></button>
+            ) : ( <button className="w-full h-10 bg-[#878787] text-white text-2xl ">Оформить!</button> )
+            }
+
+
         </div>
     )
 }

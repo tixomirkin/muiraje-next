@@ -5,7 +5,7 @@ import fire from "@/assets/catalog/fire.webp"
 import perc from "@/assets/catalog/перчатки.webp"
 import podv from "@/assets/catalog/necklace.webp"
 
-import {Popup} from "../popup.jsx";
+import {PopupWarn} from "../popupWarn.jsx";
 
 import Link from "next/link";
 import Image from "next/image";

@@ -41,7 +41,7 @@ function PuskBtn() {
     return (
         <>
             <button onClick={handleOpen} className="">
-                <Image className="h-full sm:max-w-[75px] max-w-fit" src={isOpen ? puskbtn_click : puskbtn} alt="" />
+                <Image className="h-full sm:max-w-[75px] max-w-fit hover:brightness-110" src={isOpen ? puskbtn_click : puskbtn} alt="" />
             </button>
             {isOpen && (
                 <div className=" absolute bottom-11 sm:bottom-9 left-0 w-80 h-fit bg-stone-300  border-r-2 border-b-2 border-stone-700 ">

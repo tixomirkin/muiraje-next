@@ -29,6 +29,7 @@ export const CartItem = ({item, index}) => {
                     <div className="text-xl whitespace-nowrap">{price} руб.</div>
                 </div>
                 <div className="ml-auto flex gap-1 ">
+                    {}
                     <button onClick={() => remoweFromCart(index)}>🗑️</button>
                 </div>
             </div>

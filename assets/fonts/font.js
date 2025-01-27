@@ -19,3 +19,4 @@ export const ZTFormom = localFont({
     src: "./ZT_Formom.woff2",
     variable: "--font-zt-formom"
 })
+

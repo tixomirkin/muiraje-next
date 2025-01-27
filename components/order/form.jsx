@@ -35,7 +35,7 @@ export default function FormContent({orderHandler}) {
     return (<>
         <form action={action} className=" flex flex-col items-center w-full px-5">
 
-            <Image className="h-10" src={whoareyou} alt=""/>
+            <Image className="h-10 render" src={whoareyou} alt=""/>
 
             <Input required name="name">Получатель (ФИО полностью)</Input>
             <Input required type="email" name="email">Email</Input>
@@ -50,8 +50,8 @@ export default function FormContent({orderHandler}) {
                     <div>
                         <input className=" appearance-none peer " name="deliver" id="sdec" type="radio"
                                value="СДЭК" defaultChecked/>
-                        <Image src={nocheck} alt="" className="h-3 w-3 mb-1 mr-1 inline peer-checked:hidden"/>
-                        <Image src={check} alt="" className="h-3 w-3 mb-1 mr-1 hidden peer-checked:inline"/>
+                        <Image src={nocheck} alt="" className="render h-3 w-3 mb-1 mr-1 inline peer-checked:hidden"/>
+                        <Image src={check} alt="" className="render h-3 w-3 mb-1 mr-1 hidden peer-checked:inline"/>
                         Самовывоз СДЭК (по России)
                     </div>
                     <p>от 2 дней, от 224 руб.</p>
@@ -61,8 +61,8 @@ export default function FormContent({orderHandler}) {
                     <div>
                         <input className=" appearance-none peer " name="deliver" id="spb" type="radio"
                                value="Мьюражер"/>
-                        <Image src={nocheck} alt="" className="h-3 w-3 mb-1 mr-1 inline peer-checked:hidden"/>
-                        <Image src={check} alt="" className="h-3 w-3 mb-1 mr-1 hidden peer-checked:inline"/>
+                        <Image src={nocheck} alt="" className="render h-3 w-3 mb-1 mr-1 inline peer-checked:hidden"/>
+                        <Image src={check} alt="" className="render h-3 w-3 mb-1 mr-1 hidden peer-checked:inline"/>
                         Мьюражер (по Санкт-Петербургу)
                     </div>
                     <p>424 руб.</p>
@@ -73,7 +73,7 @@ export default function FormContent({orderHandler}) {
                           className="w-full bg-stone-300 border-l-2 border-t-2 border-stone-400 hover:outline-0"/>
 
 
-                <Image className="h-10 mt-8" src={thatsriht} alt=""/>
+                <Image className="mx-auto render h-10 mt-8" src={thatsriht} alt=""/>
 
                 <p className="leading-4 mb-3">
                     {/*Сумма: {totalPrice} руб. <br/>*/}
@@ -82,7 +82,7 @@ export default function FormContent({orderHandler}) {
                     Итоговая сумма: {totalPrice} руб.
                 </p>
 
-                <button className="w-full h-10 bg-stone-500 text-xl text-white border-r-2 border-b-2 border-stone-600"
+                <button disabled={!cart.length > 0} className="w-full h-10 bg-stone-500 text-xl text-white border-r-2 border-b-2 border-stone-600"
                         type="submit">
                     Подтвердить заказ.
                 </button>

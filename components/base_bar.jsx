@@ -3,7 +3,7 @@ import Image from "next/image";
 
 
 
-export function BaseBar({title="", logo, bg="win", linkTo="", fixed=false}) {
+export function BaseBar({title="", logo, bg="win", linkTo="", fixed=false, onClick=null}) {
     let style = "flex z-20 sm:h-8 h-10 items-center justify-between pl-1 "
     switch (bg) {
         case "win":
@@ -32,7 +32,7 @@ export function BaseBar({title="", logo, bg="win", linkTo="", fixed=false}) {
                 <div className="flex z-20 flex-row h-full p-[2px] w-fit">
                     <MiniBtn ico="min"/>
                     <MiniBtn ico="full"/>
-                    <MiniBtn linkTo={linkTo} ico="close"/>
+                    <MiniBtn linkTo={linkTo} ico="close" onClick={onClick}/>
                 </div>
             </div>
 

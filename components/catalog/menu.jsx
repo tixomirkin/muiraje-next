@@ -16,7 +16,7 @@ import Image from "next/image";
 function MenuItem({ icon, name, className }) {
     return (
         <div className={"text-xl text-center w-10 " + className}>
-            <Image className="min-h-14 min-w-full h-full render" src={icon} alt="" />
+            <Image className="block w-10 min-w-10 min-h-14 h-full render" src={icon} alt="" />
             {name}
         </div>
     )
@@ -42,13 +42,16 @@ export function Menu() {
     return (
         <>
             <div className="flex justify-between mx-4 ">
-                <div className="flex justify-center items-end gap-5 overflow-x-auto">
-                    <MenuItem name="All" icon={all}/>
-                    <MenuItem name="Accery" icon={acc}/>
-                    <MenuItem name="Hoodie" icon={hoodie}/>
-                    <MenuItem className=" sm:block" name="Pants" icon={pants}/>
-                    <MenuItem className=" sm:block mr-4" name="Top" icon={top}/>
+                <div className="w-full overflow-x-scroll">
+                    <div className="grid grid-cols-5 justify-center items-end gap-5 w-full ">
+                        <MenuItem name="All" icon={all}/>
+                        <MenuItem name="Accery" icon={acc}/>
+                        <MenuItem name="Hoodie" icon={hoodie}/>
+                        <MenuItem className=" sm:block" name="Pants" icon={pants}/>
+                        <MenuItem className=" sm:block mr-4" name="Top" icon={top}/>
+                    </div>
                 </div>
+
                 <CartBtn/>
             </div>
         </>

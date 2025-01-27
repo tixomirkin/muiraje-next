@@ -23,9 +23,9 @@ return (
                     </button>
             )
             }
-            renderThumbs={(children) => (
-                children
-            )}
+            renderThumbs={(children) => {
+                return children.map((item, index) => item.props.children)
+            }}
         >
             {children}
                 
